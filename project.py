@@ -1,7 +1,9 @@
+import streamlit as st 
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import openpyxl
+
 # Excel 파일 읽기
 excel_file = "./MDP_00015_Youtube시청_키워드_성별연령별_Top50_202207.xlsx"
 # sheet_name = "Sheet1"
